@@ -1,0 +1,21 @@
+.welcome {
+  display: flex;
+  background-color: #be95c4;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-header-img img {
+  width: 20vw;
+  height: 50vh;
+  border-radius: 50%;
+}
+.welcome-header-text {
+  flex: 1;
+
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3vmin;
+  text-align: left;
+  padding: 5%;
+}
