@@ -1,21 +1,124 @@
-.welcome {
+.d-flex {
   display: flex;
-  background-color: #be95c4;
+}
+.space-between {
+  gap: 2%;
+}
+.welcome {
+  background-color: #e5e5e5;
   width: 100%;
   height: 100vh;
+}
+.welcome-header-container {
   justify-content: center;
   align-items: center;
+  width: 80%;
 }
 .welcome-header-img img {
-  width: 20vw;
-  height: 50vh;
-  border-radius: 50%;
+  width: auto;
+  height: 80vh;
+  border-radius: 25px;
+  object-fit: fill;
 }
 .welcome-header-text {
-  flex: 1;
-
-  font-family: "Courier New", Courier, monospace;
-  font-size: 3vmin;
+  flex-grow: auto;
+  font-size: 5vmin;
   text-align: left;
   padding: 5%;
+  width: 40%;
+}
+.credit {
+  margin: auto 0 0 auto;
+  font-size: 1.2vmin;
+}
+.about,
+.skills,
+.technologies {
+  padding: 1.5rem;
+}
+
+.about {
+  background-color: #f8f9fa;
+}
+
+.about-header-text,
+.skills-header-text,
+.technologies-header-text {
+  font-size: 3vmin;
+  text-align: center;
+}
+.about-body-text {
+  margin: 5%;
+  font-size: 2.5vmin;
+}
+.skills {
+  background-color: #e5e5e5;
+}
+.skills-body {
+  margin: 3%;
+  width: 90vw;
+  border-radius: 25px;
+}
+.skills-element {
+  display: inline-block;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vmin;
+  text-align: center;
+}
+.skills-content {
+  display: inline-block;
+  margin-top: 8%;
+  padding: 3%;
+  vertical-align: middle;
+  background-color: black;
+  font-size: 2.8vmin;
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+}
+/* Slideshow */
+
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+/* Buttons */
+
+.slideshowDots {
+  text-align: center;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+
+  cursor: pointer;
+  margin: 1% 0.4% 0;
+
+  background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+  background-color: #6c757d;
+}
+.technologies-body {
+  margin: 5%;
+}
+.technology-title {
+  margin: 1%;
+}
+.progress-bar {
+  background-color: #6c757d !important;
 }
