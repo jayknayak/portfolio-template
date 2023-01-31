@@ -7,6 +7,7 @@ import "./App.css";
 import AboutMe from "./components/aboutMe";
 import Skills from "./components/skills";
 import Technologies from "./components/technologies";
+import Projects from "./components/projects";
 
 function App() {
   const ref = useRef(null);
@@ -24,6 +25,7 @@ function App() {
         <AboutMe />
         <Skills />
         <Technologies />
+        <Projects />
       </main>
     </LocomotiveScrollProvider>
   );

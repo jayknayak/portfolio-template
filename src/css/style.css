@@ -1,11 +1,15 @@
 .d-flex {
   display: flex;
 }
-.space-between {
+.d-flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.gap {
   gap: 2%;
 }
 .welcome {
-  background-color: #e5e5e5;
+  background-color: #0077b6;
   width: 100%;
   height: 100vh;
 }
@@ -31,28 +35,35 @@
   margin: auto 0 0 auto;
   font-size: 1.2vmin;
 }
+
 .about,
 .skills,
-.technologies {
+.technologies,
+.projects {
   padding: 1.5rem;
 }
-
-.about {
-  background-color: #f8f9fa;
-}
-
 .about-header-text,
 .skills-header-text,
-.technologies-header-text {
+.technologies-header-text,
+.projects-header-text {
   font-size: 3vmin;
   text-align: center;
 }
-.about-body-text {
+.about-body-text,
+.technologies-body,
+.projects-body {
   margin: 5%;
+}
+
+.about {
+  background-color: #17c3b2;
+}
+.about-body-text {
   font-size: 2.5vmin;
 }
+
 .skills {
-  background-color: #e5e5e5;
+  background-color: #fe6d73;
 }
 .skills-body {
   margin: 3%;
@@ -81,44 +92,72 @@
   border-radius: 25px;
 }
 /* Slideshow */
-
 .slideshow {
   margin: 0 auto;
   overflow: hidden;
 }
-
 .slideshowSlider {
   white-space: nowrap;
   transition: ease 1000ms;
 }
-
 /* Buttons */
-
 .slideshowDots {
   text-align: center;
 }
-
 .slideshowDot {
   display: inline-block;
   height: 20px;
   width: 20px;
   border-radius: 50%;
-
   cursor: pointer;
   margin: 1% 0.4% 0;
-
-  background-color: #c4c4c4;
+  background-color: #fff0f3;
 }
-
 .slideshowDot.active {
-  background-color: #6c757d;
+  background-color: #800f2f;
 }
-.technologies-body {
-  margin: 5%;
+
+.technologies {
+  background-color: #fdc500;
+  /* background-image: url("../static/technologies.jpg");
+  opacity: 0.5;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 .technology-title {
   margin: 1%;
 }
 .progress-bar {
-  background-color: #6c757d !important;
+  background-color: #8cb369;
 }
+.technologies-note {
+  text-align: right;
+}
+
+.projects {
+  background-color: #8cb369;
+}
+.card {
+  width: 25rem;
+  height: 20rem;
+  background-color: #31572c;
+  text-align: center;
+}
+.card img {
+  /* opacity: 0.9; */
+  width: 100%;
+  height: 15rem;
+  object-fit: fill;
+}
+.card-title {
+  font-size: 2.5vmin;
+}
+.card:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  opacity: 1;
+}
+/* .card img:hover {
+  opacity: 1;
+} */
