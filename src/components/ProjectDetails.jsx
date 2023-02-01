@@ -1,13 +1,30 @@
 import React from "react";
 
-export default function ProjectDetails() {
+import Modal from "react-bootstrap/Modal";
+import "../css/style.css";
+
+export default function ProjectDetails(props) {
+  const { show, onClose, projectDetails } = props;
+
+  if (!projectDetails) return;
   return (
-    <div
-      data-scroll-section
-      height="100vh"
-      style={{ backgroundColor: "black", zIndex: "2" }}
+    <Modal
+      show={show}
+      onHide={onClose}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
     >
-      ProjectDetails
-    </div>
+      <Modal.Header closeButton>
+        <Modal.Title>{projectDetails.title}</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <ul>
+          {projectDetails.desc.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+      </Modal.Body>
+    </Modal>
   );
 }

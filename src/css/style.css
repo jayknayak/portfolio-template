@@ -161,3 +161,6 @@
 /* .card img:hover {
   opacity: 1;
 } */
+.modal-content {
+  background-color: #31572c;
+}
