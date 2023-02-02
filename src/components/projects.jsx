@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { projects } from "../constants/projectConstants";
 import Card from "react-bootstrap/Card";
 import "../css/style.css";
-import ProjectDetails from "./ProjectDetails";
+import ProjectDetails from "./projectDetails";
 
 export default function Projects() {
   const [show, setShow] = useState(false);
@@ -14,7 +14,7 @@ export default function Projects() {
   };
   return (
     <div className="projects" data-scroll-section>
-      <div className="projects-header-text">
+      <div className="header-text">
         <h1>PROJECTS</h1>
       </div>
       <div className="projects-body">

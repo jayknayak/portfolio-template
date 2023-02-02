@@ -8,6 +8,7 @@ import AboutMe from "./components/aboutMe";
 import Skills from "./components/skills";
 import Technologies from "./components/technologies";
 import Projects from "./components/projects";
+import Experience from "./components/experience";
 
 function App() {
   const ref = useRef(null);
@@ -23,6 +24,7 @@ function App() {
       <main data-scroll-container ref={ref}>
         <Welcome />
         <AboutMe />
+        <Experience />
         <Skills />
         <Technologies />
         <Projects />

@@ -8,6 +8,11 @@
 .gap {
   gap: 2%;
 }
+
+.header-text {
+  font-size: 3vmin;
+  text-align: center;
+}
 .welcome {
   background-color: #0077b6;
   width: 100%;
@@ -39,15 +44,9 @@
 .about,
 .skills,
 .technologies,
-.projects {
+.projects,
+.experience {
   padding: 1.5rem;
-}
-.about-header-text,
-.skills-header-text,
-.technologies-header-text,
-.projects-header-text {
-  font-size: 3vmin;
-  text-align: center;
 }
 .about-body-text,
 .technologies-body,
@@ -61,6 +60,33 @@
 .about-body-text {
   font-size: 2.5vmin;
 }
+
+/* Experience Start*/
+.experience {
+  background-color: #e0aaff;
+  font-size: 2.5vmin;
+}
+.experience-body {
+  margin: 3%;
+}
+.timeline {
+  border-left: 1px solid;
+  border-color: #9d4edd;
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
+  margin-left: 0.5rem;
+}
+.experience-container {
+  position: relative;
+  margin-bottom: 2%;
+}
+.timeline-circle {
+  position: absolute;
+  top: 5px;
+  color: #9d4edd;
+  left: -36.5px;
+}
+/* Experience End*/
 
 .skills {
   background-color: #fe6d73;
@@ -140,8 +166,8 @@
 }
 .card {
   width: 25rem;
-  height: 20rem;
-  background-color: #31572c;
+  height: 18rem;
+  background-color: #2b9348;
   text-align: center;
 }
 .card img {
@@ -162,5 +188,5 @@
   opacity: 1;
 } */
 .modal-content {
-  background-color: #31572c;
+  background-color: #2b9348;
 }
