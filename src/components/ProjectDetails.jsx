@@ -1,7 +1,6 @@
 import React from "react";
 
 import Modal from "react-bootstrap/Modal";
-import "../css/style.css";
 
 export default function ProjectDetails(props) {
   const { show, onClose, projectDetails } = props;

@@ -1,9 +1,8 @@
 import React from "react";
-import "../css/style.css";
 
 export default function AboutMe() {
   return (
-    <div className="about" data-scroll-section>
+    <div className="about">
       <div className="header-text">
         <h1>ABOUT ME </h1>
       </div>

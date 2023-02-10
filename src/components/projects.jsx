@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { projects } from "../constants/projectConstants";
 import Card from "react-bootstrap/Card";
-import "../css/style.css";
 import ProjectDetails from "./projectDetails";
 
 export default function Projects() {

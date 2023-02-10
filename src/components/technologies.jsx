@@ -1,6 +1,5 @@
 import React from "react";
 import ProgressBar from "react-bootstrap/ProgressBar";
-import "../css/style.css";
 import Icon from "@mdi/react";
 import { technologies } from "../constants/technologiesConstants";
 
@@ -23,7 +22,7 @@ export default function Technologies() {
                     </div>
                     <ProgressBar
                       now={technology.percent}
-                      animated
+                      // animated
                       visuallyHidden
                     />
                   </div>

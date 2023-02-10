@@ -1,7 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import profileImg from "../static/profile.jpg";
-import "../css/style.css";
 export default function Welcome() {
   return (
     <div
@@ -24,16 +23,6 @@ export default function Welcome() {
             }}
           />
         </div>
-      </div>
-      <div className="credit">
-        Photo by{" "}
-        <a href="https://unsplash.com/@lightupphotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-          Cristina Anne Costello
-        </a>{" "}
-        on{" "}
-        <a href="https://unsplash.com/s/photos/cute-baby?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
-          Unsplash
-        </a>
       </div>
     </div>
   );

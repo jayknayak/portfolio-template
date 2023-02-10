@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/style.css";
 import Slideshow from "../utils/slideshow";
 
 import { delay, skills } from "./../constants/slideshowConstants";
