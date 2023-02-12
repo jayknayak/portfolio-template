@@ -8,7 +8,7 @@ export default function Skills() {
       <div className="header-text">
         <h1>SKILLS & KNOWLEDGE </h1>
       </div>
-      <div className="d-flex skills-body">
+      <div className="display-flex skills-body">
         <Slideshow items={skills} delay={delay} />
       </div>
     </div>

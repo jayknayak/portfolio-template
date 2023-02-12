@@ -40,7 +40,9 @@ export default function Slideshow(props) {
           >
             <div className="skills-content">
               <h2>{skill.title}</h2>
-              <p>{skill.desc}</p>
+              <h5>
+                <p>{skill.desc}</p>
+              </h5>
             </div>
           </div>
         ))}

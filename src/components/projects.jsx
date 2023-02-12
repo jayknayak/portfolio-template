@@ -23,7 +23,9 @@ export default function Projects() {
               <Card onClick={() => handleShow(project)}>
                 <Card.Img src={project.icon} />
                 <Card.Body>
-                  <Card.Title>{project.title}</Card.Title>
+                  <Card.Title>
+                    <h5>{project.title}</h5>
+                  </Card.Title>
                 </Card.Body>
               </Card>
             </div>

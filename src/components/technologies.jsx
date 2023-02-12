@@ -31,9 +31,9 @@ export default function Technologies() {
             );
           })}
         </div>
-        <div className="technologies-note">
+        {/* <div className="technologies-note">
           <p>(% are relative not absolute)</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

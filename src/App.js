@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
+import "jquery/dist/jquery.min.js";
 
 import Navbar from "./components/navbar";
 import Welcome from "./components/welcome";
@@ -39,6 +40,7 @@ function App() {
     //   smooth: true,
     // },
   };
+
   return (
     <LocomotiveScrollProvider options={options} containerRef={ref}>
       <Navbar />

@@ -19,16 +19,17 @@ export default function Experience() {
                 size={1}
               />
               <h3>{experience.title}</h3>
-              <p>
-                <strong>{experience.company}</strong> |{" "}
-                <small>
-                  {experience.start} - {experience.end}
-                </small>
-              </p>
-              <p>{experience.skills}</p>
-              {/* {experience.desc.map((item, index2) => (
-                <p key={index2}>{item}</p>
-              ))} */}
+              <h4>
+                <p>
+                  <strong>{experience.company}</strong> |{" "}
+                  <small>
+                    {experience.start} - {experience.end}
+                  </small>
+                </p>
+              </h4>
+              <h5>
+                <p>{experience.skills}</p>
+              </h5>
             </div>
           ))}
         </div>

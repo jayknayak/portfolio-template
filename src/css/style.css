@@ -1,4 +1,4 @@
-.d-flex {
+.display-flex {
   display: flex;
 }
 .d-flex-column {
@@ -23,7 +23,8 @@
   color: #dc3545 !important;
 }
 .navbar {
-  background-color: #212529;
+  /* background-color: #212529; */
+  background-color: #082c44;
 }
 .nav-link {
   color: #f8f9fa;
@@ -34,6 +35,9 @@
 .nav-link.active {
   background-color: #00bbf9 !important;
 }
+.nav-link.active:hover {
+  color: #f8f9fa;
+}
 input,
 textarea {
   background-color: #f8f9fa !important;
@@ -43,26 +47,47 @@ textarea {
   height: 100vh;
 }
 .welcome-header-container {
-  justify-content: center;
-  align-items: center;
   width: 100%;
 }
+.welcome-header-img {
+  margin: 2rem;
+}
 .welcome-header-img img {
-  width: auto;
-  height: 80vh;
-  border-radius: 25px;
+  max-width: 100%;
+  height: 60vmin;
+  border-radius: 50%;
   object-fit: fill;
 }
 .welcome-header-text {
-  flex-grow: auto;
-  font-size: 5vmin;
+  width: 50%;
+  /* white-space: nowrap; */
   text-align: left;
-  padding: 5%;
-  width: 40%;
+  margin: 2rem;
+}
+.scroll-to-bottom {
+  position: fixed;
+  width: 20px;
+  left: calc(50% - 10px);
+  bottom: 30px;
+  z-index: 11;
+  animation: action 1s infinite alternate;
+}
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 30px;
+  text-align: center;
+  right: 30px;
+  bottom: 30px;
+  z-index: 11;
+  animation: action 1s infinite alternate;
+  color: #ffffff;
+}
+.back-to-top:hover {
+  color: #ffffff;
 }
 
 .about,
-.skills,
 .technologies,
 .experience,
 .projects,
@@ -70,20 +95,15 @@ textarea {
   padding: 4rem;
 }
 .about-body-text,
+.experience-body,
 .technologies-body,
 .projects-body,
 .contact-me-body {
-  margin: 5%;
-}
-.about-body-text {
-  font-size: 2.5vmin;
+  margin-top: 4rem;
 }
 /* Experience Start*/
 .experience {
   font-size: 2.5vmin;
-}
-.experience-body {
-  margin: 3%;
 }
 .timeline {
   border-left: 1px solid;
@@ -94,7 +114,7 @@ textarea {
 }
 .experience-container {
   position: relative;
-  margin-bottom: 2%;
+  margin-bottom: 4rem;
 }
 .timeline-circle {
   position: absolute;
@@ -105,9 +125,7 @@ textarea {
 /* Experience End*/
 
 .skills-body {
-  margin: 3%;
-  width: 90vw;
-  border-radius: 25px;
+  margin-top: 3%;
 }
 .skills-element {
   display: inline-block;
@@ -116,19 +134,18 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 50vmin;
+  height: 60vmin;
   text-align: center;
 }
 .skills-content {
   display: inline-block;
-  margin-top: 8%;
+  margin-top: 10%;
   padding: 3%;
-  vertical-align: middle;
   background-color: black;
-  font-size: 2.8vmin;
-  color: white;
   text-align: center;
   border-radius: 25px;
+  white-space: normal;
+  max-height: 100%;
 }
 /* Slideshow */
 .slideshow {
@@ -141,6 +158,7 @@ textarea {
 }
 /* Buttons */
 .slideshowDots {
+  margin-top: 2rem;
   text-align: center;
 }
 .slideshowDot {
@@ -169,7 +187,7 @@ textarea {
 .card {
   width: 25rem;
   height: 18rem;
-  background-color: #00bbf9;
+  background-color: #082c44;
   text-align: center;
 }
 .card img {
@@ -197,7 +215,7 @@ textarea {
 .btn {
   display: inline-block;
   vertical-align: middle;
-  background-color: #495057;
+  background-color: #082c44;
   width: 15rem;
   color: white;
   padding: 0.375rem 0.75rem;
@@ -207,3 +225,11 @@ textarea {
   background-color: #00bbf9;
 }
 /* Contact Me Ends */
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}

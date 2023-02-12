@@ -20,7 +20,9 @@ export default function ProjectDetails(props) {
       <Modal.Body>
         <ul>
           {projectDetails.desc.map((item, index) => (
-            <li key={index}>{item}</li>
+            <li key={index}>
+              <h5>{item}</h5>
+            </li>
           ))}
         </ul>
       </Modal.Body>
