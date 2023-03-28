@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactMe() {
   return (
-    <div className="contact-me" data-scroll-section>
+    <div className="contact-me">
       <div className="header-text">
         <h1>CONTACT ME</h1>
       </div>

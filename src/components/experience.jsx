@@ -5,7 +5,7 @@ import { experiences } from "../constants/experienceConstants";
 
 export default function Experience() {
   return (
-    <div className="experience" data-scroll-section>
+    <div className="experience">
       <div className="header-text">
         <h1>Experience</h1>
       </div>

@@ -5,7 +5,7 @@ import { technologies } from "../constants/technologiesConstants";
 
 export default function Technologies() {
   return (
-    <div className="technologies" data-scroll-section>
+    <div className="technologies">
       <div className="header-text">
         <h1>TECHNOLOGIES </h1>
       </div>

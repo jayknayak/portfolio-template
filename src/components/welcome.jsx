@@ -25,12 +25,7 @@ export default function Welcome() {
   });
   return (
     <div>
-      <div
-        className="display-flex d-flex-center welcome"
-        data-scroll-section
-        data-scroll
-        data-scroll-speed="3"
-      >
+      <div className="display-flex d-flex-center welcome">
         <div className="row d-flex-center welcome-header-container">
           <div className="col-md-3 display-flex d-flex-center welcome-header-img">
             <img src={profileImg} alt="Profile" />

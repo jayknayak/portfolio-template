@@ -12,7 +12,7 @@ export default function Projects() {
     setProjectDetails(projectDetails);
   };
   return (
-    <div className="projects" data-scroll-section>
+    <div className="projects">
       <div className="header-text">
         <h1>PROJECTS</h1>
       </div>
