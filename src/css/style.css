@@ -22,6 +22,9 @@
 .text-danger {
   color: #dc3545 !important;
 }
+.text-align-justify {
+  text-align: justify;
+}
 .navbar {
   /* background-color: #212529; */
   background-color: #082c44;
@@ -90,12 +93,14 @@ textarea {
 .about,
 .technologies,
 .experience,
+.skills,
 .projects,
 .contact-me {
   padding: 4rem;
 }
 .about-body-text,
 .experience-body,
+.skills-body,
 .technologies-body,
 .projects-body,
 .contact-me-body {
@@ -124,9 +129,6 @@ textarea {
 }
 /* Experience End*/
 
-.skills-body {
-  margin-top: 3%;
-}
 .skills-element {
   display: inline-block;
   opacity: 0.65;

@@ -29,7 +29,7 @@ export const technologies = [
     { name: "Java", percent: 95, icon: mdiLanguageJava },
     { name: "SQL", percent: 85, icon: mdiDatabaseSearch },
     { name: "Git", percent: 89, icon: mdiGit },
-    { name: "NGINX", percent: 70, icon: mdiServerSecurity },
+    { name: "NGINX", percent: 79, icon: mdiServerSecurity },
     { name: "Linux", percent: 80, icon: mdiPenguin },
   ],
 ];

@@ -66,11 +66,10 @@ export const projects = [
   {
     title: "Personal Portfolios/Websites",
     desc: [
-      "Designing and modeling cybersecurity architecture, security systems and security-focused tools, mitigation plans, and algorithms for risk assessment and solve cybersecurity issues in cyber-physical systems.",
-      "Analyzed security vulnerabilities and developed security measures to mitigate cyber risks in smart grid.",
-      "Developed penetration testing tools to identify security weaknesses, and computing threat vectors.",
-      "Designed security mechanisms for secure siting of embedded systems.",
-      "Implemented the proposed cybersecurity architecture on an actual electric utility – the SaskPower grid of Saskatchewan province, to analyze the feasibility and accuracy of the architecture.",
+      "Design and Develop both the front-end and back-end components of a complex and sophisticated web applications.",
+      "Design and Manage the database, and integrate third-party services and APIs focusing optimal application performance.",
+      "Selection of appropriate technologies, frameworks, and tools for building the user interface, and implementing business logic.",
+      "Knowledge and hands-on expertise of software development best practices, project management, and collaboration with stakeholders.",
     ],
     icon: personalPortfolio,
   },

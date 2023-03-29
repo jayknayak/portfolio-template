@@ -1,3 +1,11 @@
+## How to deploy on Google Firebase
+
+1. npm install -g firebase-tools (If firebase doesn't exist)
+2. firebase login (If no login to the firebase CLI)
+3. npm run build
+4. firebase init (For a new app w/o firebase init, choose "Hosting: Configure files for Firebase Hosting" feature.)
+5. firebase deploy
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
