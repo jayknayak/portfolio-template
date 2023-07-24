@@ -31,13 +31,14 @@ export default function Welcome() {
             <img src={profileImg} alt="Profile" />
           </div>
           <div className="col-md-3 d-flex-column welcome-header-text">
-            <h1>JAY </h1>
+            <h1>JAY NAYAK</h1>
             <h1>
               <Typewriter
                 options={{
                   strings: ["Full-Stack Developer"],
                   autoStart: true,
                   loop: true,
+                  delay: 50,
                 }}
               />
             </h1>

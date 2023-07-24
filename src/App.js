@@ -8,7 +8,6 @@ import Skills from "./components/skills";
 import Technologies from "./components/technologies";
 import Projects from "./components/projects";
 import Experience from "./components/experience";
-import ContactMe from "./components/contactMe";
 
 import "./App.css";
 
@@ -61,9 +60,9 @@ function App() {
         <div id="projects">
           <Projects />
         </div>
-        <div id="contact">
+        {/* <div id="contact">
           <ContactMe />
-        </div>
+        </div> */}
       </div>
     </main>
   );
